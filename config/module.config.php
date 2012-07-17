@@ -3,7 +3,7 @@
 return array(
     'service_manager' => array(
         'factories' => array(
-            'redis-server' => 'KleverRedis\Service\RedisServerFactory',
+            'klever-redis' => 'KleverRedis\Service\RedisFactory',
         ),
     ),
 );
